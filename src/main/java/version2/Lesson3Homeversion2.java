@@ -25,7 +25,7 @@ public class Lesson3Homeversion2 {
     }
     public static void tackTwo(){
         int[] arr2 = new int[100];
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < arr2.length; i++) {
             arr2[i] = i;
             System.out.println("arr2[" + i + "] = " + arr2[i]);
         }
@@ -41,7 +41,7 @@ public class Lesson3Homeversion2 {
     }
     public static void squareDiagonal(){
         int[][] table = new int[8][8];
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < table.length; i++) {
             for (int j = 0; j < 8; j++) {
                 if (i == j) {
                     table[i][j] = 1;
